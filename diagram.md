@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     class BaseLearnerBackend {
       <<interface>>
@@ -20,3 +21,4 @@ classDiagram
     
     PyCaretBackend ..|> BaseLearnerBackend : implements
     TabularLearner --> BaseLearnerBackend : uses
+```
